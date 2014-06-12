@@ -1,4 +1,6 @@
-// Arrays
 
-var muppetNames = ["Kermit", "Mss Piggy", " Gonzo", "Rizzo"];
-console.log (muppetNames[3]);
+
+var a = 3;
+a *= 2;
+
+console.log(a);
