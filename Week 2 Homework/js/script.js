@@ -22,5 +22,5 @@ console.log(total);
 // In order to find the average you will need to divide by the number of prompts that were given.
 var average = total / 4;
 // In order for the person to see what the average is there needs to be a prompt added with that answer.
-alert(average);
+alert("Your average weight loss is  " + average);
 // Ok I was able to complete it thanks to the help of the class!
