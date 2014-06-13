@@ -22,5 +22,5 @@ var light = per/20;
 
 // The only thing we have left to do is add in an alert to let us know the answer.
 
-alert(light);
+alert("The number of lights you need is "  +  light);
 
