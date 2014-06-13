@@ -1,6 +1,6 @@
 /* Shawn O'Brien
  WPF Section 101
- Assignment: Expressions
+ Assignment: Expressions 12 June 2014
  */
 //alert("Testing 1,2,3");
 
