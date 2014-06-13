@@ -16,11 +16,11 @@ var a = [week1, week2, week3, week4];
 // test to see if the answer is correct.
 console.log(a);
 //Now to get the total.
-var total = (Number(a[0]) + (Number(a[1]) + (Number(a[2]) +  (Number(a[3])))));
+var total = Number(a[0]) + Number(a[1]) + Number(a[2]) +  Number(a[3]);
 //Test to see if this answer is right.
 console.log(total);
 // In order to find the average you will need to divide by the number of prompts that were given.
 var average = total / 4;
 // In order for the person to see what the average is there needs to be a prompt added with that answer.
-alert("Your average weight loss is  " + average);
+alert("Your average weight loss is  " + average + "lbs");
 // Ok I was able to complete it thanks to the help of the class!
