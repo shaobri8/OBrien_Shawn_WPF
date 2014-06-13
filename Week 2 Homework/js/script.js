@@ -6,10 +6,10 @@ Assignment: Expressions
 
 //Create a Js file that will determine what your average weight loss is.
 // In order to find an average, first we must get the input from the prompts.
-var week1 = prompt("How much did you loose in week 1");
-var week2 = prompt("How much did you loose in week 2");
-var week3 = prompt("How much did you loose in week 3");
-var week4 = prompt("How much did you loose in week 4");
+var week1 = prompt("How much did you loose in week 1?");
+var week2 = prompt("How much did you loose in week 2?");
+var week3 = prompt("How much did you loose in week 3?");
+var week4 = prompt("How much did you loose in week 4?");
 
 //Now we need to add all of the information that was given together to get a sum.
 var a = [week1, week2, week3, week4];

@@ -23,4 +23,4 @@ alert("You will buy a cat and name it " + dog);
 alert("You will find $" + fb + " on the ground");
 alert("You will buy a " + wh  + " house");
 alert("You will own " + car + " cars");
-// It has been checked and it works! 
+// It has been checked and it works!
