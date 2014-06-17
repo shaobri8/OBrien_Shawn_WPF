@@ -3,11 +3,14 @@
  Assignment: Conditionals 17 June 2014
  */
 //alert("Testing 1,2,3");
-var oldEnough = false;
-// If the child is old enough print to the console "You can ride!"
 
-if(oldEnough){
-    //code preformed if condition is true.
-    console.log("You can ride the coaster!");
+var kidHeight = 47;
+var minHeight = 47;
+
+// If child is over 48 inches in height
+if(kidHeight>=minHeight){
+    console.log ("You can ride!");
 }
-console.log("What comes after?");
+else{
+    console.log ("Sorry kid, you've got some growing to do first.")
+}
