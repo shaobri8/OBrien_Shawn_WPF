@@ -4,13 +4,18 @@
  */
 //alert("Testing 1,2,3");
 
-var budget = 100;
-var iPhonePrice = 199.99;
-var wonLottery = true;
+/*var gpa = 4.8;
 
-//if the price of the phone is less than the budget AND if our paycheck is over 300
-if(iPhonePrice < 300 || wonLottery === true){
-   console.log ("You get a new phone!")
-}else{
-    console.log("No phone for you!");
+// if the student has over the min score of 2.0, they can graduate.
+if(gpa > 2.0){
+    console.log ("You can graduate!");
+}else{ console.log ("gpa is too low");
 }
+    */
+
+var age = 10;
+var book;
+
+//if child is under 10 then they get green eggs and ham, otherwise they get the time machine.
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log (book);
