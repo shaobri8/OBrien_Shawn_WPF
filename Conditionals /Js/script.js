@@ -4,13 +4,13 @@
  */
 //alert("Testing 1,2,3");
 
-var kidHeight = 47;
-var minHeight = 47;
+var budget = 300;
+var iPhonePrice = 199.99;
+var payCheck = 200;
 
-// If child is over 48 inches in height
-if(kidHeight>=minHeight){
-    console.log ("You can ride!");
-}
-else{
-    console.log ("Sorry kid, you've got some growing to do first.")
+//if the price of the phone is less than the budget AND if our paycheck is over 300
+if(iPhonePrice < 300 && payCheck < 300){
+   console.log ("You get a new phone!")
+}else{
+    console.log("No phone for you!");
 }
