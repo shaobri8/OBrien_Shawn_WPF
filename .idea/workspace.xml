@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b1f8cfa-e58c-4b70-b4cc-df9f1d3e82e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2 Homework 2 /js/script.js" afterPath="$PROJECT_DIR$/Week 2 Homework 2 /js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2 Homework 3/js/script.js" afterPath="$PROJECT_DIR$/Week 2 Homework 3/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2 Homework/js/script.js" afterPath="$PROJECT_DIR$/Week 2 Homework/js/script.js" />
-    </list>
+    <list default="true" id="0b1f8cfa-e58c-4b70-b4cc-df9f1d3e82e9" name="Default" comment="" />
     <ignored path="OBrien_Shawn_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
