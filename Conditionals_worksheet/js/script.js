@@ -23,7 +23,7 @@ Assignment: Conditional_worksheet
 
 
 
-var percent = prompt(" What is the grade percent? ");
+//var percent = prompt(" What is the grade percent? ");
 // Here we used an interface to find our variable.
 
  // we will use this variable to find out the grade below.
@@ -51,9 +51,10 @@ var time = prompt("What time do you want to see the movie?");
 // We now need to write the statement to find out the price of the ticket. Lets say any movie before 5 pm gets the
  //price of $7 and anyone who is over the age of 55 gets the price of $7 also. AND 7 is the lowest price available.
 
- if(){
+ if(old>=55 || time <=3){console.log("Your movie price will be $7")
 
- }
+ }else{console.log("Your movie price will be $12")}
+// code has been tested and works.
 
 
 
