@@ -10,3 +10,11 @@ Assignment: Conditional_Personal
 var temp = prompt("What is the temperature?");
 var wind = prompt("How windy is it today?");
 var weather = prompt("Will it most likely rain today?");
+
+ //Now we have the conditions that need to be met in order to fly, we need to code it.
+
+if(temp <=80 && temp >=40 && wind <= 10 && weather === No){console.log ("Yes you can fly today!")
+
+}else{console.log("No I wouldn't chance it.")}
+
+ 
