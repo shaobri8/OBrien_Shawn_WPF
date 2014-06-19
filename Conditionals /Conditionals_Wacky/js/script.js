@@ -7,3 +7,7 @@ Assignment: Conditionals_Wacky
 
  //Here is the last conditional. I want to have a little fun with this one so I am going to make it into a game
  //called, guess what number I'm thinking of.
+
+ var number = prompt("Guess what number I am thinking of?");
+ if(number === ""){prompt("Seriously pick a number. You might do better than you think! ")}
+ 
