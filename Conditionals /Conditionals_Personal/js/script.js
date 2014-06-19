@@ -13,8 +13,8 @@ var weather = prompt("Will it most likely rain today?");
 
  //Now we have the conditions that need to be met in order to fly, we need to code it.
 
-if(temp <=80 && temp >=40 && wind <= 10 && weather === No){console.log ("Yes you can fly today!")
+if(temp <=80 && temp >=40 && wind <= 10 && weather === "No"){console.log ("Yes you can fly today!")
 
 }else{console.log("No I wouldn't chance it.")}
 
- 
+//Tested the code and it works. Great. Now on to the validation. 
