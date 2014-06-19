@@ -9,15 +9,18 @@ Assignment: Conditional_Personal
 
 var temp = prompt("What is the temperature?");
 
-if(temp===""){prompt("Please don't leave blank")}
+if(temp===""){prompt("Please don't leave blank")} //validated and works.
 
 
 var wind = prompt("How windy is it today?");
+ //this time I will validate the number
+ if(isNaN(wind)){prompt("Please inter a number!")}
+
 var weather = prompt("Will it most likely rain today?");
 
  //Now we have the conditions that need to be met in order to fly, we need to code it.
 
-if(temp <=80 && temp >=40 && wind <= 10 && weather === "No"){console.log ("Yes you can fly today!")
+if(temp <=80 && temp >=40 && wind <= 10 && weather === "no"){console.log ("Yes you can fly today!")
 
 }else{console.log("No I wouldn't chance it.")}
 
