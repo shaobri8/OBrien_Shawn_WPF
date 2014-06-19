@@ -14,9 +14,10 @@ if(temp===""){prompt("Please don't leave blank")} //validated and works.
 
 var wind = prompt("How windy is it today?");
  //this time I will validate the number
- if(isNaN(wind)){prompt("Please inter a number!")}
+ if(isNaN(wind)){prompt("Please enter a number!")}
 
 var weather = prompt("Will it most likely rain today?");
+ if(weather===""){prompt("Please say yes or no")}
 
  //Now we have the conditions that need to be met in order to fly, we need to code it.
 
