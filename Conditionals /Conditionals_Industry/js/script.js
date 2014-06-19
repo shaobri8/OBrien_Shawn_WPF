@@ -17,4 +17,3 @@ Assignment: Conditionals_Industry
  hours = (hours<40 && timeOff === "yes") ?"They will be able to work" : "No, you have to find someone else.";
  console.log(hours);
 
- 
