@@ -32,8 +32,9 @@ console.log ("The circumference of the circle is " + complete); // Here is the o
 
  function beeSting(sting, pounds ){// the function requires that I put in the containers.
      var beeSting = sting * pounds;// Here I am telling the factory what to do with what's in those containers.
-     return beeSting;//Now I am returning the answer so that we can print it to the console. 
+     return beeSting;//Now I am returning the answer so that we can print it to the console.
 
  }
 
-console.log (total);
+console.log ("It takes " + total + " bee stings to kill a 180 lbs human");
+
