@@ -10,7 +10,11 @@ Assignment: Functions Date 06/26/14
 
  //The first thing I want to do is create a variable to use for the function to return.
 
- var totalWatts = watts(20, 12); // Here is the info that will be put in the "Container" that are in the function.
+ var amp = prompt("How many amps is there?");
+
+ var volt = prompt("How many volts is there?");
+
+ var totalWatts = watts(amp, volt); // Here is the info that will be put in the "Container" that are in the function.
 
  function watts(amps, volts){
      watts = amps * volts;
