@@ -31,8 +31,8 @@ var width = 5;
  }
 
 */
-
- function dogYear (age){// parameter 
+/*
+ function dogYear (age){// parameter
      var dogYear = age * 7;
      console.log ("Sparky is " + dogYear + " years old.");
 
@@ -40,3 +40,13 @@ var width = 5;
 dogYear(4); // arguments
 dogYear(5);
 
+*/
+
+ var total = calArea(30, 20);
+
+ function calArea(w, h){
+     var area = w * h;
+     return(area);
+
+ }
+ console.log(total); 
