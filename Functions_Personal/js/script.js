@@ -24,16 +24,16 @@ while(isNaN(volt) || volt ===""){
 }
 
 
-
- var totalWatts = watts(amp, volt); // Here is the info that will be put in the "Container" that are in the function.
-
- function watts(amps, volts){
-     watts = amps * volts;
+ var totalWatts = function(amps, volts) {
+     watts = amp * volt;
      return (watts);
+ };
+var a = totalWatts(amp);
 
+prompt ("You will have " + a + " watts of power");// I used the var a to prompt the user. I created it so I can have
+ // An anonymous function.
 
- }
-prompt ("You will have " + totalWatts + " watts of power");//Instead of printing out on the console. I have prompted
+//Instead of printing out on the console. I have prompted
  // the answer to the user.
 
 
