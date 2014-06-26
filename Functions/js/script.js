@@ -10,7 +10,7 @@ Assignment: Functions
      console.log ("Hello World");
  }
 
- function calcArea(){
+ function calcArea() {
 
      var width = 20;
      var height = 30;
@@ -18,3 +18,6 @@ Assignment: Functions
      console.log(area);
 
  }
+ calcArea();
+ calcArea();
+ calcArea();
