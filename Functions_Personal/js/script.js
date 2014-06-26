@@ -6,7 +6,7 @@ Assignment: Functions Date 06/26/14
 //alert("Testing 1,2,3");
 
  //When running a rc helicopter it is useful to know know how many watts of power you are using. This code is gather
- //info from prompts and calculate what the wattage will be.
+ //info from prompts and calculate what the wattage will be used.
 
  //The first thing I want to do is create a variable to use for the function to return.
 
