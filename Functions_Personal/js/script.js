@@ -19,7 +19,7 @@ Assignment: Functions Date 06/26/14
  var volt = prompt("How many volts is there?");// prompt works properly now we need to validate it.
 
 while(isNaN(volt) || volt ===""){
-    volt = prompt("How many volts is there?")// validated and working properly 
+    volt = prompt("How many volts is there?"); // validated and working properly
 
 }
 
@@ -33,7 +33,8 @@ while(isNaN(volt) || volt ===""){
 
 
  }
-console.log ("You will have " + totalWatts + " watts of power");
+prompt ("You will have " + totalWatts + " watts of power");//Instead of printing out on the console. I have prompted
+ // the answer to the user.
 
 
 
