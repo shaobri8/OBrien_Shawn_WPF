@@ -42,11 +42,18 @@ dogYear(5);
 
 */
 
- var total = calArea(30, 20);
+ /*var total = calArea(30, 20);
 
  function calArea(w, h){
      var area = w * h;
      return(area);
 
  }
- console.log(total); 
+ console.log(total);
+ */
+
+ var functionName = function(){
+     //code to run
+
+
+ }
