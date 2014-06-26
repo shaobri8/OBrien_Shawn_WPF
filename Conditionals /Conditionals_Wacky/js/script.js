@@ -20,4 +20,4 @@ Assignment: Conditionals_Wacky
 var guess = prompt(" Not quite, this time pick between 5 and 10");
 
  // The conditional statement shows that you don't have to pick an exact number, but they will think they did.
- if(guess= 7 - 10){prompt("That's right!!!!! ")}
+ if(guess<=10){prompt("That's right!!!!! ")}
