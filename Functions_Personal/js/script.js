@@ -17,9 +17,8 @@ Assignment: Functions Date 06/26/14
      return (watts);
 
 
-
  }
-
+console.log ("You will have " + totalWatts + " watts of power");
 
 
 
