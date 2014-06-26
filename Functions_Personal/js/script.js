@@ -10,9 +10,20 @@ Assignment: Functions Date 06/26/14
 
  //The first thing I want to do is create a variable to use for the function to return.
 
- var amp = prompt("How many amps is there?");
+ var amp = prompt("How many amps is there?");//prompt works, now we need to validate it.
+ while(isNaN(amp) || amp ==="") {
+     amp = prompt("How many amps is there?"); // validated and works properly.
 
- var volt = prompt("How many volts is there?");
+ }
+
+ var volt = prompt("How many volts is there?");// prompt works properly now we need to validate it.
+
+while(isNaN(volt) || volt ===""){
+    volt = prompt("How many volts is there?")// validated and working properly 
+
+}
+
+
 
  var totalWatts = watts(amp, volt); // Here is the info that will be put in the "Container" that are in the function.
 
