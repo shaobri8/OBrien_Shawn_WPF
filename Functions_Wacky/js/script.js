@@ -10,14 +10,14 @@ Assignment: Functions
  var money = prompt("How much money did you save for this trip?");
  //This is a variable that will be required to know if I can afford to go on a cruse.
 
- while(isNaN(money) ||  money ===""){money = prompt("How much money did you save for this trip?")
+ while(isNaN(money) ||  money ===""){money = prompt("How much money did you save for this trip?");
  }// Here the prompt is validated.
 
 
- if(money >= 1500){prompt("Great! you have enough money")
+ if(money >= 1500){prompt("Great! you have enough money");
 
  }else{
-     prompt("I'm sorry, you need to save some more money before you can go. ")
+     prompt("I'm sorry, you need to save some more money before you can go. ");
  }// My if/else statement that is required, it will let the user know if he can go on.
 
 
