@@ -31,7 +31,7 @@ var time = prompt("How many days of vacation do you have");
 //I am in need of another variable AND I have another ternary
 
 
- (time >= 7 && money>= 1500)? prompt("You have enough money and time Pack your bags baby!!") : prompt("You don't have enough " +
+ (time >= 7 && money>= 1500)? prompt("You have enough money and time. Pack your bags baby!!") : prompt("You don't have enough " +
      "money and / or time");
 
 // here is another required ternary that I need to find out if I have the time.
