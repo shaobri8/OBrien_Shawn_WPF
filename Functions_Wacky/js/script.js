@@ -25,6 +25,9 @@ Assignment: Functions
  // Am I going to be able to take the time off of work?
 
 var time = prompt("How many days of vacation do you have");
+ while(isNaN(time) || time===""){ time = prompt("How many days of vacation do you have")
+
+ }
 
  (time >= 7 && money>= 1500)? prompt("You have enough money and time Pack your bags baby!!") : prompt("You don't have enough " +
      "money and / or time");
