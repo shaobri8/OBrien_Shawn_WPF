@@ -9,8 +9,8 @@ Assignment: Functions
 
  var money = prompt("How much money did you save for this trip?");
  //This is a variable that will be required to know if I can afford to go on a cruse.
- while(isNaN(money) ||  money ===""){money = prompt("How much money did you save for this trip?")
 
+ while(isNaN(money) ||  money ===""){money = prompt("How much money did you save for this trip?")
  }// Here the prompt is validated.
 
 
@@ -25,10 +25,13 @@ Assignment: Functions
  // Am I going to be able to take the time off of work?
 
 var time = prompt("How many days of vacation do you have");
- while(isNaN(time) || time===""){ time = prompt("How many days of vacation do you have")
+ while(isNaN(time) || time===""){ time = prompt("How many days of vacation do you have");
 
  }
+//I am in need of another variable AND I have another ternary
+
 
  (time >= 7 && money>= 1500)? prompt("You have enough money and time Pack your bags baby!!") : prompt("You don't have enough " +
      "money and / or time");
 
+// here is another required ternary that I need to find out if I have the time.
