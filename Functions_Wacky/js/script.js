@@ -14,11 +14,18 @@ Assignment: Functions
  }// Here the prompt is validated.
 
 
- if(money >= 1500){prompt("Great! you have enough money, Let's keep going!")
+ if(money >= 1500){prompt("Great! you have enough money")
 
  }else{
-     prompt("I'm sorry, we cant go any further. Please try again after you have saved some more money. ")
+     prompt("I'm sorry, you need to save some more money before you can go. ")
  }// My if/else statement that is required, it will let the user know if he can go on.
 
- var time = prompt("Do you have vacation days available?");
+
+ (money> 1500) ? prompt("Ok let continue on") : prompt("Let's at lest find out if you meet the other requirements. ");
  // Am I going to be able to take the time off of work?
+
+var time = prompt("How many days of vacation do you have");
+
+ (time >= 7 && money>= 1500)? prompt("You have enough money and time Pack your bags baby!!") : prompt("You don't have enough " +
+     "money and / or time");
+
